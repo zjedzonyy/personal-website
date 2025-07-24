@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AuthContext } from "../auth/index.js";
+import { AuthContext } from "../auth/index";
 import { AlertTriangle, Home, RefreshCw, ArrowLeft, Search, Bug, Wifi, Server } from "lucide-react";
 
 const ErrorPage = ({
