@@ -16,17 +16,6 @@ export default function ExperienceSection() {
     hoveredId === id ? setHoveredId(null) : setHoveredId(id);
   };
 
-  // const detailRefs = useRef({});
-
-  // useEffect(() => {
-  //   if (hoveredId && detailRefs.current[hoveredId]) {
-  //     detailRefs.current[hoveredId].scrollIntoView({
-  //       behavior: "smooth",
-  //       block: "center",
-  //     });
-  //   }
-  // }, [hoveredId]);
-
   const experiences = [
     {
       id: 5,
@@ -50,7 +39,6 @@ export default function ExperienceSection() {
       achievements: [
         "Delivered several full-stack apps using REST APIs",
         "Practiced testing, deployment, and CI with modern tools",
-        "Completed The Odin Project (Full Stack JavaScript)",
       ],
       icon: Lightbulb,
     },
